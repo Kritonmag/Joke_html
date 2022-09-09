@@ -1,0 +1,155 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.container {
+  max-width: 750px;
+  max-height: 650px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header-nav {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23272a;
+  justify-content: space-between;
+}
+.header-lf {
+  margin-left: 15px;
+}
+.main-title {
+  font-size: 28px;
+  color: #7289da;
+}
+.header-rg {
+  margin-right: 15px;
+}
+.header-button {
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #7289da;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .7s;
+}
+
+.header-button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.header-button:hover {
+  background-color: #4a6be3;
+  border-radius: 7px;
+}
+
+.main-content {
+  padding-right: 15px;
+  display: flex;
+  background-color: #23272a;
+}
+.content-lf {
+
+}
+.content-list-lf {
+  width: 100px;
+  margin: 15px;
+  padding: 0;
+  list-style: none;
+}
+.list-items-lf {
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #7289da;
+  cursor: pointer;
+  transition: all .7s;
+}
+
+.list-items-lf:hover {
+  background-color: #4a6be3;
+  border-radius: 7px;
+}
+
+
+.list-items-lf:not(:last-child) {
+  margin-bottom: 15px ;
+}
+
+.content-rg {
+  border-radius: 15px;
+  background-color: #99aab5;
+}
+.content-list-rg {
+  list-style: none;
+  padding: 0;
+  margin: 15px;
+}
+.list-items-rg {
+  color: rgb(78, 97, 97);
+}
+
+.list-items-rg:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.content-rg-foot {
+  margin-right: 15px;
+  text-align: right;
+}
+
+.content-rg-btn-add {
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #7289da;
+  cursor: pointer;
+  transition: all .7s;
+}
+
+.content-rg-btn-add:hover {
+  background-color: #4a6be3;
+  border-radius: 7px;
+}
+
+
+.content-rg-btn-delete {
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(194, 41, 41);
+  cursor: pointer;
+  transition: all .7s;
+}
+
+.content-rg-btn-delete:hover {
+  background-color: rgb(155, 24, 24);
+  border-radius: 7px;
+}
+
+
+.footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 70px;
+  display: flex;
+  background-color: #23272a;
+  justify-content: space-between;
+}
+.footer-lf {
+  margin: 15px;
+}
+.footer-content-lf {
+  color: #7289da;
+}
+.footer-rg {
+  margin: 15px;
+}
+.footer-content-rg {
+  color: #7289da;
+}
